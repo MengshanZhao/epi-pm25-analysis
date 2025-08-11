@@ -34,20 +34,5 @@ This analysis combines:
 - **Tournament theory** framing for dynamic incentives  
 - Seasonal controls to account for heating and weather-driven PM2.5 variation  
 
----
 
-## Example: Synthetic DiD Implementation
-```python
-import pandas as pd
-import statsmodels.formula.api as smf
 
-# Synthetic panel dataset
-df = pd.DataFrame({
-    'city': ['A']*4 + ['B']*4,
-    'year': [2018, 2019, 2020, 2021]*2,
-    'pm25': [60, 55, 50, 48, 65, 64, 58, 56],
-    'treat': [0, 0, 1, 1, 0, 0, 0, 0]
-})
-
-model = smf.ols("pm25 ~ treat + C(city) + C(year)", data=df).fit(cov_type='cluster', cov_kwds={'groups': df['city']})
-print(model.summary())
