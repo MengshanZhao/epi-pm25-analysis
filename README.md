@@ -28,12 +28,13 @@ This analysis combines:
 *Note: Raw datasets cannot be shared. *
 
 ---
-
 ## Methods
 - **Difference-in-Differences (DiD)** with multiple groups & periods  
 - **Continuous treatment specification** to capture intensity of EPI risk  
 - **Tournament theory** framing for dynamic incentives  
-- Seasonal controls to account for heating and weather-driven PM2.5 variation  
+- Robustness checks on different specifications, considering neighborhood cities, matching and event study apporach
 
-
+---
+## Code Sample
+Include code samples of a data cleanning for the air pollution data and simple DID regression
 
