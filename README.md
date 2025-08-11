@@ -1,7 +1,7 @@
 # EPI PM2.5 Analysis
 
 **Full Title:** Competing for Clean Air: Dynamic Incentives in China's Environmental Protection Interviews  
-**Status:** Working Paper (2025 Job Market Paper)  
+**Status:** Working Paper (2026 Job Market Paper)  
 **Keywords:** Difference-in-Differences, Tournament Theory, Environmental Policy, PM2.5, China
 
 ---
