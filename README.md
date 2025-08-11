@@ -8,7 +8,7 @@
 
 ## Project Overview
 This project examines the *Environmental Protection Interview* (EPI), a high-profile, ranking-based environmental policy in China.  
-Using high-frequency satellite PM2.5 data, I investigate how competitive, ranking-based incentives affect local governments' pollution reduction strategies.
+Using high-frequency satellite PM2.5 data and self-collected health data, I investigate how competitive, ranking-based incentives affect local governments' pollution reduction strategies.
 
 **Key Findings:**
 - Cities at risk of EPI sanctions reduced PM2.5 concentrations by **15.7 μg/m³** — ~4x larger than previous estimates.
@@ -19,10 +19,11 @@ Using high-frequency satellite PM2.5 data, I investigate how competitive, rankin
 
 ## Data
 This analysis combines:
-- **Satellite-based PM2.5 concentration** (TAP program, 2013–2022, daily)
+- **Satellite-based PM2.5 concentration** (TAP program, 2000–present, daily at 1 km spatial resolution)
+- **Self-collect Health Data** (Gathered from hundreds of png files from government's websites)
 - **City-level EPI announcement dates** from Chinese Ministry of Ecology and Environment
-- **Political network data** (provincial leadership connections)
-- **Weather controls** (temperature, precipitation, wind speed)
+- **Political network data** (provincial leadership connections, matched with self-collected data)
+- **City-level control** (GDP, tech share etc)
 
 *Note: Raw datasets cannot be shared. *
 
