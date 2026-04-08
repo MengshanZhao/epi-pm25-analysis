@@ -9,7 +9,7 @@
 
 China's Environmental Protection Interview (EPI) policy ranks cities by air quality
 and publicly targets the worst performers. I ask: does ranking-based competitive
-pressure actually reduce pollution — and if so, who responds, when, and why?
+pressure actually reduce pollution, and if so, who responds, when, and why?
 
 Prior literature focused on cities that were formally sanctioned and found modest
 effects (~4 μg/m³). This paper reframes the question around *competitive risk*:
